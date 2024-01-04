@@ -1,0 +1,43 @@
+:root {
+  --brown: #312614;
+  --gold: #B7832f;
+  --gray: #707070;
+  --white: #fff;
+}
+
+body {
+  font-size: 1.125rem;
+  color: var(--gray);
+  margin: 0;
+}
+
+/* Typography */
+h1 {
+  font-size: 3rem;
+  color: var(--brown);
+  text-align: center;
+}
+
+h1 span {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Layout */
+
+.container {
+  max-width: 980px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
